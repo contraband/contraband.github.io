@@ -56,16 +56,58 @@
           visibility: hidden;
         }
       }
+
+      .menu {
+        position: absolute;
+        bottom: 1em;
+        right: 1em;
+        padding: 0;
+        margin: auto
+      }
+
+      .right {
+        right: 1em;
+      }
+
+      .left {
+        left: 1em;
+      }
+
+      .menu ul li {
+        display: inline;
+        font-family: 'Share Tech Mono', Courier;
+        font-size: 24px;
+        padding-right: 1em;
+      }
+
+      .menu a:hover {
+        text-decoration: none;
+        color: rgb(24, 113, 254);
+      }
     </style>
   </head>
 
   <body>
     <div class="container">
-      <a href="https://github.com/contraband">
         <div class="center title">
           contraband<span class="blink highlight">_</span>
         </div>
-      </a>
+    </div>
+
+    <div class="menu left">
+      <ul>
+        <li><a href="#">about</a></li>
+        <li><a href="https://github.com/contraband">code</a></li>
+      </ul>
+    </div>
+
+    <div class="menu right">
+      <ul>
+        <li><a href="#">airfreight</a></li>
+        <li><a href="#">checkin</a></li>
+        <li>|</li>
+        <li><a href="#">holler</a></li>
+      </ul>
     </div>
   </body>
 </html>
