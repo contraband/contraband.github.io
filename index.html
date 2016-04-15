@@ -3,9 +3,10 @@
   <head>
     <title>contraband</title>
 
+    <link href='https://fonts.googleapis.com/css?family=Fira+Mono:700&effect=anaglyph' rel='stylesheet' type='text/css'>
     <style type="text/css">
       body {
-        font-family: -apple-system, ".SFNSDisplay-Regular", HelveticaNeue, LucidaGrande;
+        font-family: "Fira Mono", sans-serif;
       }
 
       a:link,
@@ -18,49 +19,29 @@
 
       .container {
         background: white;
-        height: 200px;
-        width: 80%;
-        margin: 0 auto;
-        overflow: auto;
+        width: 100%;
+        position: relative;
+        height: 35em;
       }
 
       .center {
-        width: 400px;
-        height: 100px;
-        margin: -70px 0 0 -200px;
+        display: block;
+        text-align: center;
         position: absolute;
         top: 50%;
         left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
       }
 
       .title {
-        font-size: 64px;
-      }
-
-      .highlight {
-        color: rgb(24, 113, 254);
-      }
-
-      .blink {
-        animation: blink 1s steps(5, start) infinite;
-        -webkit-animation: blink 1s steps(5, start) infinite;
-      }
-
-      @keyframes blink {
-        to {
-          visibility: hidden;
-        }
-      }
-
-      @-webkit-keyframes blink {
-        to {
-          visibility: hidden;
-        }
+        font-size: 72px;
+        letter-spacing: 18px;
       }
 
       .menu {
         position: absolute;
-        bottom: 1em;
+        top: 1em;
         right: 1em;
         padding: 0;
         margin: auto
@@ -82,16 +63,14 @@
 
       .menu a:hover {
         text-decoration: none;
-        color: rgb(24, 113, 254);
+        color: red;
       }
     </style>
   </head>
 
   <body>
     <div class="container">
-        <div class="center title">
-          contraband<span class="blink highlight">_</span>
-        </div>
+        <div class="center title font-effect-anaglyph">contraband</div>
     </div>
 
     <div class="menu left">
@@ -103,11 +82,10 @@
 
     <div class="menu right">
       <ul>
-        <li><a href="#">airfreight</a></li>
-        <li><a href="#">checkin</a></li>
+        <li><a href="https://github.com/contraband/airfreight">airfreight</a></li>
+        <li><a href="https://github.com/contraband/checkin">checkin</a></li>
         <li><a href="https://github.com/contraband/gaol">gaol</a></li>
-        <li>|</li>
-        <li><a href="#">holler</a></li>
+        <li><a href="https://github.com/contraband/holler">holler</a></li>
       </ul>
     </div>
   </body>
