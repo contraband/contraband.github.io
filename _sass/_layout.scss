@@ -1,0 +1,84 @@
+body {
+  font-family: "Fira Mono", monospace;
+  font-weight: 400;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  font-size: 96px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+}
+
+.anaglyph {
+  text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+}
+
+nav {
+  position: relative;
+  height: 3em;
+}
+
+.menu {
+  margin-top: 1em;
+  display: block-inline;
+  position: absolute;
+}
+
+.right {
+  right: 1em;
+}
+
+.left {
+  left: 1em;
+}
+
+.menu ul {
+  padding-right: 1em;
+  display: inline-block;
+}
+
+.menu ul li {
+  display: inline;
+  font-size: 18px;
+  padding-right: 1em;
+}
+
+.menu a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: white;
+  background: black;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
+.content {
+  width: 800px;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+
+  h1 {
+    font-weight: 700;
+  }
+}

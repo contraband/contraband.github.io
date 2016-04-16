@@ -1,0 +1,6 @@
+# Site Settings
+title: contraband
+url: http://contraband.io
+
+# Build Settings
+markdown: kramdown
