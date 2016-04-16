@@ -4,3 +4,6 @@ url: http://contraband.io
 
 # Build Settings
 markdown: kramdown
+
+sass:
+  style: compressed
