@@ -1,15 +1,5 @@
 body {
-  font-family: "Fira Mono", monospace;
-  font-weight: 400;
   min-width: 655px;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-  text-decoration: none;
-  color: inherit;
 }
 
 .title {
@@ -29,6 +19,14 @@ a:active {
 nav {
   position: relative;
   height: 3em;
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 .menu {
@@ -74,12 +72,25 @@ nav {
 }
 
 .content {
-  width: 800px;
+  width: 700px;
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
 
   h1 {
     font-weight: 700;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
