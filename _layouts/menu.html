@@ -12,11 +12,9 @@ layout: default
 
   <div class="menu right">
     <ul>
-      <li><a href="https://github.com/contraband/checkin">checkin</a></li>
-      <li><a href="https://github.com/contraband/gaol">gaol</a></li>
-      <li><a href="https://github.com/contraband/holler">holler</a></li>
-      <li><a class="disabled" href="https://github.com/contraband/anderson">anderson</a></li>
-      <li><a class="disabled" href="https://github.com/contraband/airfreight">airfreight</a></li>
+      {% for project in site.projects %}
+        <li><a {% if project.disabled %}class="disabled"{% endif %} href="/projects/{{project.title|downcase}}">{{project.title|downcase}}</a></li>
+      {% endfor %}
     </ul>
   </div>
 </nav>
