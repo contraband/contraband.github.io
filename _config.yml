@@ -2,10 +2,6 @@
 title: contraband
 url: http://contraband.io
 
-collections:
-  projects:
-    output: true
-
 # Build Settings
 markdown: kramdown
 
