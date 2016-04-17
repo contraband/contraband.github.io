@@ -2,14 +2,22 @@ body {
   min-width: 655px;
 }
 
-.title {
-  font-size: 96px;
+.center {
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.title {
+  font-size: 6em;
   font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.3em;
+  text-align: center;
 }
 
 .anaglyph {
@@ -50,7 +58,7 @@ nav {
 
 .menu ul li {
   display: inline;
-  font-size: 18px;
+  font-size: 1.2em;
   padding-right: 1em;
 }
 
