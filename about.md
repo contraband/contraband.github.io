@@ -13,9 +13,10 @@ own uses.
 [dotfiles]: https://github.com/xoebus/dotfiles
 [emotions]: https://github.com/xoebus/emotions
 
-The majority of the software I write is related to the CI server
-[Concourse][concourse] (which I work on with [Alex Suraci][suraci] and friends)
-and [Cloud Foundry][cloudfoundry] which is my day job at [Pivotal][pivotal].
+The majority of the software I write is related to the Continuous Integration
+server [Concourse][concourse] (which I work on with [Alex Suraci][suraci] and
+friends) and [Cloud Foundry][cloudfoundry] which is my day job at
+[Pivotal][pivotal].
 
 [concourse]: https://concourse.ci
 [suraci]: https://github.com/vito
