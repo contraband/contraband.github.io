@@ -14,15 +14,14 @@
 .glitch:before{
   content: attr(data-text);
   position: absolute;
-  left: -2px;
+  left: -7px;
   text-shadow: 1px 0 blue;
   top: 0;
-  color: $text-color;
+  color: cyan;
   background: $background-color;
   overflow: hidden;
   clip: rect(0,900px,0,0);
-  animation: noise-anim-before 3s infinite linear alternate-reverse;
-  font-weight: 400;
+  animation: noise-anim-before 2s infinite ease alternate-reverse;
 }
 
 @keyframes noise-anim-after {
@@ -37,13 +36,12 @@
 .glitch:after{
   content: attr(data-text);
   position: absolute;
-  left: 2px;
+  left: 9px;
   text-shadow: -1px 0 red;
   top: 0;
-  color: $text-color;
+  color: red;
   background: $background-color;
   overflow: hidden;
   clip: rect(0,900px,0,0);
-  animation: noise-anim-after 2s infinite linear alternate-reverse;
-  font-weight: 400;
+  animation: noise-anim-after 3s infinite ease alternate-reverse;
 }
